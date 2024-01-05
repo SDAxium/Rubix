@@ -3,12 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.XR;
 using Random = UnityEngine.Random;
 
 public class ControlCube : MonoBehaviour
 {
     public GameObject cube;
     public GameObject center;
+    public Material highlightMat;
+    public Material defaultMat;
 
     private string[] sections = { "top", "equator", "bottom", "left", "middle", "right", "front", "stand", "back" };
 
@@ -46,9 +49,9 @@ public class ControlCube : MonoBehaviour
         standing[1, 1] = center;
         UpdateLists();
         
-        pieces.Add(top);
-        pieces.Add(equator);
         pieces.Add(bottom);
+        pieces.Add(equator);
+        pieces.Add(top);
         pieces.Add(left);
         pieces.Add(middle);
         pieces.Add(right);
@@ -67,48 +70,21 @@ public class ControlCube : MonoBehaviour
                 HandleRotation(KeyCode.X,true,RotateX);
                 HandleRotation(KeyCode.Y,true,RotateY);
                 HandleRotation(KeyCode.Z,true,RotateZ);
-                // if (Input.GetKeyDown(KeyCode.X))
-                // {
-                //     rotating = true;
-                //     StartCoroutine(RotateX(true));
-                // }
-                // if (Input.GetKeyDown(KeyCode.Y))
-                // {
-                //     rotating = true;
-                //     StartCoroutine(RotateY(true));
-                // }
-                // if (Input.GetKeyDown(KeyCode.Z))
-                // {
-                //     rotating = true;
-                //     StartCoroutine(RotateZ(true));
-                // }
+                // HandleRotation(KeyCode.T,true,RotateTop);
             }
             else
             {
                 HandleRotation(KeyCode.X,false,RotateX);
                 HandleRotation(KeyCode.Y,false,RotateY);
                 HandleRotation(KeyCode.Z,false,RotateZ);
+                // HandleRotation(KeyCode.T,false,RotateTop);
             }
-            
-            // if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
-            // {
-            //     if (Input.GetKeyDown(KeyCode.X))
-            //     {
-            //         rotating = true;
-            //         StartCoroutine(RotateX(false));
-            //         
-            //     }
-            //     if (Input.GetKeyDown(KeyCode.Y))
-            //     {
-            //         rotating = true;
-            //         StartCoroutine(RotateY(false));
-            //     }
-            //     if (Input.GetKeyDown(KeyCode.Z))
-            //     {
-            //         rotating = true;
-            //         StartCoroutine(RotateZ(false));
-            //     }
-            // }
+
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                RotateTop(true);
+                SnapCubelets();
+            }
         }
         
 
@@ -117,14 +93,60 @@ public class ControlCube : MonoBehaviour
             print("Printing it all");
             PrintAllMatrices();
         }
+        
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            for (int i = 0; i < top.GetLength(0); i++)
+            {
+                for (int j = 0; j < top.GetLength(1); j++)
+                {
+                    top[i, j].gameObject.GetComponent<Renderer>().material = defaultMat;
+                }
+            }
+        }
     }
 
     private void HandleRotation(KeyCode key, bool clockwise, Func<bool, IEnumerator> rotateMethod)
     {
-        if (Input.GetKeyDown(key))
+        if (!Input.GetKeyDown(key)) return;
+        rotating = true;
+        StartCoroutine(rotateMethod(clockwise));
+        SnapCubelets();
+    }
+    
+    private void ClearMatrix(GameObject[,] matrix)
+    {
+        for (int i = 0; i < matrix.GetLength(0); i++)
         {
-            rotating = true;
-            StartCoroutine(rotateMethod(clockwise));
+            for (int j = 0; j < matrix.GetLength(1); j++)
+            {
+                matrix[i, j] = null;
+            } 
+        }
+    }
+
+    private void SnapCubelets()
+    {
+        float snapInterval = 3.5f;
+        float snapRotation = 90f;
+        for (int i = 0; i < cube.transform.childCount; i++)
+        {
+            var curr = cube.transform.GetChild(i).gameObject;
+            var position = curr.transform.position;
+            var rotation = curr.transform.eulerAngles;
+            
+
+            float snappedX = snapInterval * Mathf.Round(position.x / snapInterval);
+            float snappedY = snapInterval * Mathf.Round(position.y / snapInterval);
+            float snappedZ = snapInterval * Mathf.Round(position.z / snapInterval);
+            
+            
+            float snappedRotX = snapRotation * Mathf.Round(rotation.x / snapRotation);
+            float snappedRotY = snapRotation * Mathf.Round(rotation.y / snapRotation);
+            float snappedRotZ = snapRotation * Mathf.Round(rotation.z / snapRotation);
+            
+            curr.transform.position = new Vector3(snappedX, snappedY, snappedZ);
+            curr.transform.eulerAngles = new Vector3(snappedRotX, snappedRotY, snappedRotZ);
         }
     }
     
@@ -146,6 +168,7 @@ public class ControlCube : MonoBehaviour
         }
         
         rotating = false;
+        SnapCubelets();
         UpdateLists();
     }
     
@@ -166,6 +189,7 @@ public class ControlCube : MonoBehaviour
             yield return null;
         }
         rotating = false;
+        SnapCubelets();
         UpdateLists();
     }
     
@@ -186,7 +210,88 @@ public class ControlCube : MonoBehaviour
             yield return null;
         }
         rotating = false;
+        SnapCubelets();
         UpdateLists();
+    }
+
+    private IEnumerator RotateTop(bool clockwise)
+    {
+        
+        int angle = 0;
+        int angleStep = clockwise ? -1 : 1;
+        
+        Vector3 point = new Vector3(3.5f, 7, 3.5f);
+        Vector3 axis = Vector3.up;
+        
+        
+        while (angle < 90)
+        {
+            for (int i = 0; i < top.GetLength(0); i++)
+            {
+                for (int j = 0; j < top.GetLength(1); j++)
+                {
+                    GameObject cubelet = top[i, j];
+                    print($"moving {cubelet.name}");
+                    cubelet.transform.RotateAround(point,axis,angleStep);
+                }
+            }
+            angle++;
+            yield return null;
+        }
+        
+        rotating = false;
+        UpdateLists();
+    }
+    
+    private IEnumerator RotateEquator(bool clockwise)
+    {
+        /*
+         * LEFT MIDDLE RIGHT
+         * point = new Vector3(7, 3.5f, 3.5f);
+         * axis = Vector3.right;
+         *
+         * FRONT STANDING BACK
+         * point = new Vector3(3.5f, 3.5f, 7);
+         * axis = Vector3.forward;
+         */
+        int angle = 0;
+        int angleStep = clockwise ? -1 : 1;
+        
+        Vector3 point = new Vector3(3.5f, 3.5f, 3.5f);
+        Vector3 axis = Vector3.up;
+        while (angle < 90)
+        {
+            foreach (GameObject obj in equator)
+            {
+                obj.transform.RotateAround(point, axis, angleStep);
+            }
+            angle++;
+            yield return null;
+        }
+        
+        UpdateLists();
+        rotating = false;
+    }
+    
+    private IEnumerator RotateBottom(bool clockwise)
+    {
+        int angle = 0;
+        int angleStep = clockwise ? -1 : 1;
+        
+        Vector3 point = new Vector3(3.5f, 0, 3.5f);
+        Vector3 axis = Vector3.up;
+        while (angle < 90)
+        {
+            foreach (GameObject obj in bottom)
+            {
+                obj.transform.RotateAround(point, axis, angleStep);
+            }
+            angle++;
+            yield return null;
+        }
+        
+        UpdateLists();
+        rotating = false;
     }
     
     /// <summary>
@@ -442,5 +547,19 @@ public class ControlCube : MonoBehaviour
         print($"Front: {inFront}");
         print($"Standing: {inSta}");
         print($"Back: {inBack}");
+    }
+    
+    private void PrintAllMatricesFaux()
+    {
+        string res = "";
+        for (int i = 0; i < top.GetLength(0); i++)
+        {
+            for (int j = 0; j < top.GetLength(1); j++)
+            {
+                res += $"{top[i, j].name} ";
+            }
+        }
+
+        print(res);
     }
 }
