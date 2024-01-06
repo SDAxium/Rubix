@@ -136,8 +136,8 @@ GameObject:
   - component: {fileID: 11465581}
   - component: {fileID: 11465580}
   m_Layer: 0
-  m_Name: cubelet-4
-  m_TagString: Untagged
+  m_Name: orange
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,7 +152,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1512791818}
@@ -174,7 +174,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -241,8 +241,8 @@ GameObject:
   - component: {fileID: 25693252}
   - component: {fileID: 25693251}
   m_Layer: 0
-  m_Name: cubelet-6
-  m_TagString: Untagged
+  m_Name: blue
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -257,7 +257,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 865379614}
@@ -279,7 +279,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -346,8 +346,8 @@ GameObject:
   - component: {fileID: 27955422}
   - component: {fileID: 27955421}
   m_Layer: 0
-  m_Name: cubelet-4
-  m_TagString: Untagged
+  m_Name: orange
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -362,7 +362,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 52303842}
@@ -384,7 +384,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -542,8 +542,8 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 27955420}
   - {fileID: 486031304}
+  - {fileID: 27955420}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &52303843
@@ -721,8 +721,8 @@ GameObject:
   - component: {fileID: 87319962}
   - component: {fileID: 87319961}
   m_Layer: 0
-  m_Name: cubelet-2
-  m_TagString: Untagged
+  m_Name: yellow
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -737,7 +737,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2126861218}
@@ -759,7 +759,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -826,8 +826,8 @@ GameObject:
   - component: {fileID: 88118308}
   - component: {fileID: 88118307}
   m_Layer: 0
-  m_Name: cubelet-6
-  m_TagString: Untagged
+  m_Name: blue
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -842,7 +842,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2045103908}
@@ -864,7 +864,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -931,8 +931,8 @@ GameObject:
   - component: {fileID: 103217348}
   - component: {fileID: 103217347}
   m_Layer: 0
-  m_Name: cubelet-3
-  m_TagString: Untagged
+  m_Name: red
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -947,7 +947,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 273632348}
@@ -969,7 +969,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1261,8 +1261,8 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 735852141}
   - {fileID: 572777026}
+  - {fileID: 735852141}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &145178925
@@ -1544,8 +1544,8 @@ GameObject:
   - component: {fileID: 217792079}
   - component: {fileID: 217792078}
   m_Layer: 0
-  m_Name: cubelet-4
-  m_TagString: Untagged
+  m_Name: orange
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1560,7 +1560,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1862433778}
@@ -1582,7 +1582,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1783,8 +1783,8 @@ GameObject:
   - component: {fileID: 227941250}
   - component: {fileID: 227941249}
   m_Layer: 0
-  m_Name: cubelet-6
-  m_TagString: Untagged
+  m_Name: blue
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1799,7 +1799,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2126861218}
@@ -1821,7 +1821,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1979,9 +1979,9 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1421544054}
   - {fileID: 103217346}
   - {fileID: 1460886538}
+  - {fileID: 1421544054}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &273632349
@@ -2142,8 +2142,8 @@ GameObject:
   - component: {fileID: 290311078}
   - component: {fileID: 290311077}
   m_Layer: 0
-  m_Name: cubelet-1
-  m_TagString: Untagged
+  m_Name: white
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2158,7 +2158,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1820313551}
@@ -2180,7 +2180,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2247,8 +2247,8 @@ GameObject:
   - component: {fileID: 358211780}
   - component: {fileID: 358211779}
   m_Layer: 0
-  m_Name: cubelet-4
-  m_TagString: Untagged
+  m_Name: orange
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2263,7 +2263,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1316425020}
@@ -2285,7 +2285,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2457,8 +2457,8 @@ GameObject:
   - component: {fileID: 400977050}
   - component: {fileID: 400977049}
   m_Layer: 0
-  m_Name: cubelet-5
-  m_TagString: Untagged
+  m_Name: green
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2473,7 +2473,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 839095099}
@@ -2495,7 +2495,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2562,8 +2562,8 @@ GameObject:
   - component: {fileID: 425406331}
   - component: {fileID: 425406330}
   m_Layer: 0
-  m_Name: cubelet-3
-  m_TagString: Untagged
+  m_Name: red
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2578,7 +2578,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1850349014}
@@ -2600,7 +2600,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2667,8 +2667,8 @@ GameObject:
   - component: {fileID: 460490178}
   - component: {fileID: 460490177}
   m_Layer: 0
-  m_Name: cubelet-3
-  m_TagString: Untagged
+  m_Name: red
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2683,7 +2683,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1652697167}
@@ -2705,7 +2705,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2772,8 +2772,8 @@ GameObject:
   - component: {fileID: 486031306}
   - component: {fileID: 486031305}
   m_Layer: 0
-  m_Name: cubelet-6
-  m_TagString: Untagged
+  m_Name: blue
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2788,7 +2788,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 52303842}
@@ -2810,7 +2810,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2877,8 +2877,8 @@ GameObject:
   - component: {fileID: 498529236}
   - component: {fileID: 498529235}
   m_Layer: 0
-  m_Name: cubelet-2
-  m_TagString: Untagged
+  m_Name: yellow
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2893,7 +2893,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1862433778}
@@ -2915,7 +2915,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2982,8 +2982,8 @@ GameObject:
   - component: {fileID: 564186257}
   - component: {fileID: 564186256}
   m_Layer: 0
-  m_Name: top
-  m_TagString: Untagged
+  m_Name: red
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2998,7 +2998,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1990326629}
@@ -3020,7 +3020,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3087,8 +3087,8 @@ GameObject:
   - component: {fileID: 572777028}
   - component: {fileID: 572777027}
   m_Layer: 0
-  m_Name: cubelet-3
-  m_TagString: Untagged
+  m_Name: red
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3103,7 +3103,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 145178924}
@@ -3125,7 +3125,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3192,8 +3192,8 @@ GameObject:
   - component: {fileID: 662766220}
   - component: {fileID: 662766219}
   m_Layer: 0
-  m_Name: cubelet-4
-  m_TagString: Untagged
+  m_Name: orange
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3208,7 +3208,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1628907142}
@@ -3230,7 +3230,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3388,8 +3388,8 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1992978778}
   - {fileID: 1687526474}
+  - {fileID: 1992978778}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &665540733
@@ -3563,8 +3563,8 @@ GameObject:
   - component: {fileID: 735852143}
   - component: {fileID: 735852142}
   m_Layer: 0
-  m_Name: cubelet-2
-  m_TagString: Untagged
+  m_Name: yellow
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3579,7 +3579,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 145178924}
@@ -3601,7 +3601,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3668,8 +3668,8 @@ GameObject:
   - component: {fileID: 742627710}
   - component: {fileID: 742627709}
   m_Layer: 0
-  m_Name: cubelet-2
-  m_TagString: Untagged
+  m_Name: yellow
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3684,7 +3684,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1953849091}
@@ -3706,7 +3706,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3773,8 +3773,8 @@ GameObject:
   - component: {fileID: 749117134}
   - component: {fileID: 749117133}
   m_Layer: 0
-  m_Name: cubelet-3
-  m_TagString: Untagged
+  m_Name: red
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3789,7 +3789,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 184569571}
@@ -3811,7 +3811,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -3934,6 +3934,7 @@ MonoBehaviour:
   inside: []
   command: 53
   axis: {x: 0, y: 1, z: 0}
+  point: {x: 0, y: 0, z: 0}
 --- !u!1 &839095095
 GameObject:
   m_ObjectHideFlags: 0
@@ -4038,9 +4039,9 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1168189546}
-  - {fileID: 1593419533}
   - {fileID: 400977048}
+  - {fileID: 1593419533}
+  - {fileID: 1168189546}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &839095100
@@ -4301,8 +4302,8 @@ GameObject:
   - component: {fileID: 934266854}
   - component: {fileID: 934266853}
   m_Layer: 0
-  m_Name: cubelet-5
-  m_TagString: Untagged
+  m_Name: green
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4317,7 +4318,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1652697167}
@@ -4339,7 +4340,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4511,8 +4512,8 @@ GameObject:
   - component: {fileID: 958751305}
   - component: {fileID: 958751304}
   m_Layer: 0
-  m_Name: cubelet-6
-  m_TagString: Untagged
+  m_Name: blue
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4527,7 +4528,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1617129561}
@@ -4549,7 +4550,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4672,6 +4673,7 @@ MonoBehaviour:
   inside: []
   command: 54
   axis: {x: 0, y: 1, z: 0}
+  point: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4777,8 +4779,8 @@ GameObject:
   - component: {fileID: 978641763}
   - component: {fileID: 978641762}
   m_Layer: 0
-  m_Name: cubelet-4
-  m_TagString: Untagged
+  m_Name: orange
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4793,7 +4795,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1820313551}
@@ -4815,7 +4817,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4938,6 +4940,7 @@ MonoBehaviour:
   inside: []
   command: 52
   axis: {x: 0, y: 1, z: 0}
+  point: {x: 0, y: 0, z: 0}
 --- !u!1 &998309246
 GameObject:
   m_ObjectHideFlags: 0
@@ -4951,8 +4954,8 @@ GameObject:
   - component: {fileID: 998309249}
   - component: {fileID: 998309248}
   m_Layer: 0
-  m_Name: left
-  m_TagString: Untagged
+  m_Name: yellow
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4967,7 +4970,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1990326629}
@@ -4989,7 +4992,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5112,6 +5115,7 @@ MonoBehaviour:
   inside: []
   command: 57
   axis: {x: 1, y: 0, z: 0}
+  point: {x: 0, y: 0, z: 0}
 --- !u!1 &1001687467
 GameObject:
   m_ObjectHideFlags: 0
@@ -5125,8 +5129,8 @@ GameObject:
   - component: {fileID: 1001687470}
   - component: {fileID: 1001687469}
   m_Layer: 0
-  m_Name: cubelet-6
-  m_TagString: Untagged
+  m_Name: blue
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5141,7 +5145,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1820313551}
@@ -5163,7 +5167,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5230,8 +5234,8 @@ GameObject:
   - component: {fileID: 1006946270}
   - component: {fileID: 1006946269}
   m_Layer: 0
-  m_Name: cubelet-3
-  m_TagString: Untagged
+  m_Name: red
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5246,7 +5250,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 865379614}
@@ -5268,7 +5272,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5470,8 +5474,8 @@ GameObject:
   - component: {fileID: 1108153444}
   - component: {fileID: 1108153443}
   m_Layer: 0
-  m_Name: cubelet-3
-  m_TagString: Untagged
+  m_Name: red
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5486,7 +5490,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 67395768}
@@ -5508,7 +5512,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5666,8 +5670,8 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1555303857}
   - {fileID: 2077719289}
+  - {fileID: 1555303857}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1108570531
@@ -5710,8 +5714,8 @@ GameObject:
   - component: {fileID: 1116954560}
   - component: {fileID: 1116954559}
   m_Layer: 0
-  m_Name: cubelet-2
-  m_TagString: Untagged
+  m_Name: yellow
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5726,7 +5730,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1048359226}
@@ -5748,7 +5752,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5898,8 +5902,8 @@ GameObject:
   - component: {fileID: 1168189548}
   - component: {fileID: 1168189547}
   m_Layer: 0
-  m_Name: cubelet-1
-  m_TagString: Untagged
+  m_Name: white
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5914,7 +5918,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 839095099}
@@ -5936,7 +5940,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -6142,6 +6146,7 @@ MonoBehaviour:
   inside: []
   command: 55
   axis: {x: 1, y: 0, z: 0}
+  point: {x: 0, y: 0, z: 0}
 --- !u!1 &1255846869
 GameObject:
   m_ObjectHideFlags: 0
@@ -6336,8 +6341,8 @@ GameObject:
   - component: {fileID: 1276897371}
   - component: {fileID: 1276897370}
   m_Layer: 0
-  m_Name: cubelet-5
-  m_TagString: Untagged
+  m_Name: green
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6352,7 +6357,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1862433778}
@@ -6374,7 +6379,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -6441,8 +6446,8 @@ GameObject:
   - component: {fileID: 1297956619}
   - component: {fileID: 1297956618}
   m_Layer: 0
-  m_Name: cubelet-5
-  m_TagString: Untagged
+  m_Name: green
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6457,7 +6462,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 67395768}
@@ -6479,7 +6484,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -6695,8 +6700,8 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1977821530}
   - {fileID: 1658438925}
+  - {fileID: 1977821530}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1306727288
@@ -6873,8 +6878,8 @@ GameObject:
   - component: {fileID: 1328794339}
   - component: {fileID: 1328794338}
   m_Layer: 0
-  m_Name: cubelet-5
-  m_TagString: Untagged
+  m_Name: green
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6889,7 +6894,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1796575685}
@@ -6911,7 +6916,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -6978,8 +6983,8 @@ GameObject:
   - component: {fileID: 1347226384}
   - component: {fileID: 1347226383}
   m_Layer: 0
-  m_Name: cubelet-4
-  m_TagString: Untagged
+  m_Name: orange
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6994,7 +6999,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2126861218}
@@ -7016,7 +7021,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -7139,6 +7144,7 @@ MonoBehaviour:
   inside: []
   command: 49
   axis: {x: 0, y: 0, z: 1}
+  point: {x: 0, y: 0, z: 0}
 --- !u!1 &1362730764
 GameObject:
   m_ObjectHideFlags: 0
@@ -7258,8 +7264,8 @@ GameObject:
   - component: {fileID: 1364721813}
   - component: {fileID: 1364721812}
   m_Layer: 0
-  m_Name: cubelet-1
-  m_TagString: Untagged
+  m_Name: white
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7274,7 +7280,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1850349014}
@@ -7296,7 +7302,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -7468,8 +7474,8 @@ GameObject:
   - component: {fileID: 1421544056}
   - component: {fileID: 1421544055}
   m_Layer: 0
-  m_Name: cubelet-1
-  m_TagString: Untagged
+  m_Name: white
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7484,7 +7490,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 273632348}
@@ -7506,7 +7512,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -7573,8 +7579,8 @@ GameObject:
   - component: {fileID: 1442337226}
   - component: {fileID: 1442337225}
   m_Layer: 0
-  m_Name: cubelet-5
-  m_TagString: Untagged
+  m_Name: green
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7589,7 +7595,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 218318295}
@@ -7611,7 +7617,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -7678,8 +7684,8 @@ GameObject:
   - component: {fileID: 1460886540}
   - component: {fileID: 1460886539}
   m_Layer: 0
-  m_Name: cubelet-5
-  m_TagString: Untagged
+  m_Name: green
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7694,7 +7700,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 273632348}
@@ -7716,7 +7722,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -7918,8 +7924,8 @@ GameObject:
   - component: {fileID: 1555303859}
   - component: {fileID: 1555303858}
   m_Layer: 0
-  m_Name: cubelet-1
-  m_TagString: Untagged
+  m_Name: white
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7934,7 +7940,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1108570530}
@@ -7956,7 +7962,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -8023,8 +8029,8 @@ GameObject:
   - component: {fileID: 1558304208}
   - component: {fileID: 1558304207}
   m_Layer: 0
-  m_Name: cubelet-1
-  m_TagString: Untagged
+  m_Name: white
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8039,7 +8045,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1796575685}
@@ -8061,7 +8067,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -8128,8 +8134,8 @@ GameObject:
   - component: {fileID: 1584584489}
   - component: {fileID: 1584584488}
   m_Layer: 0
-  m_Name: cubelet-1
-  m_TagString: Untagged
+  m_Name: white
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8144,7 +8150,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1512791818}
@@ -8166,7 +8172,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -8233,8 +8239,8 @@ GameObject:
   - component: {fileID: 1593419535}
   - component: {fileID: 1593419534}
   m_Layer: 0
-  m_Name: cubelet-4
-  m_TagString: Untagged
+  m_Name: orange
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8249,7 +8255,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 839095099}
@@ -8271,7 +8277,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -8469,9 +8475,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1618905646}
   - component: {fileID: 1618905647}
+  - component: {fileID: 1618905648}
   m_Layer: 0
   m_Name: GM
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8503,10 +8510,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1d191c2badb21b46979a6bf58230705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1618905648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618905645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542465af383f71e4d995e2b7967b2fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliders: {fileID: 1880104176}
   cube: {fileID: 1299691406}
-  center: {fileID: 1756653142}
-  highlightMat: {fileID: 2100000, guid: bc4f4860e51595a43882ae864142a9a5, type: 2}
-  defaultMat: {fileID: 2100000, guid: ae07fb5e734371946b34224139f5f888, type: 2}
+  pieces: []
 --- !u!1 &1619734234
 GameObject:
   m_ObjectHideFlags: 0
@@ -8520,8 +8538,8 @@ GameObject:
   - component: {fileID: 1619734237}
   - component: {fileID: 1619734236}
   m_Layer: 0
-  m_Name: front
-  m_TagString: Untagged
+  m_Name: blue
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8536,7 +8554,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1990326629}
@@ -8558,7 +8576,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -8716,8 +8734,8 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 662766218}
   - {fileID: 1918720977}
+  - {fileID: 662766218}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1628907143
@@ -8851,9 +8869,9 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 2000150122}
   - {fileID: 460490176}
   - {fileID: 934266852}
+  - {fileID: 2000150122}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1652697168
@@ -8896,8 +8914,8 @@ GameObject:
   - component: {fileID: 1658438927}
   - component: {fileID: 1658438926}
   m_Layer: 0
-  m_Name: cubelet-5
-  m_TagString: Untagged
+  m_Name: green
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8912,7 +8930,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1306727287}
@@ -8934,7 +8952,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -9001,8 +9019,8 @@ GameObject:
   - component: {fileID: 1687526476}
   - component: {fileID: 1687526475}
   m_Layer: 0
-  m_Name: cubelet-3
-  m_TagString: Untagged
+  m_Name: red
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9017,7 +9035,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 665540732}
@@ -9039,7 +9057,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -9339,8 +9357,8 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1558304206}
   - {fileID: 1328794337}
+  - {fileID: 1558304206}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1796575686
@@ -9474,9 +9492,9 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 290311076}
-  - {fileID: 978641761}
   - {fileID: 1001687468}
+  - {fileID: 978641761}
+  - {fileID: 290311076}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1820313552
@@ -9519,8 +9537,8 @@ GameObject:
   - component: {fileID: 1847178357}
   - component: {fileID: 1847178356}
   m_Layer: 0
-  m_Name: cubelet-6
-  m_TagString: Untagged
+  m_Name: blue
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9535,7 +9553,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1850349014}
@@ -9557,7 +9575,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -9715,9 +9733,9 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1364721811}
   - {fileID: 425406329}
   - {fileID: 1847178355}
+  - {fileID: 1364721811}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1850349015
@@ -9851,9 +9869,9 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 498529234}
-  - {fileID: 217792077}
   - {fileID: 1276897369}
+  - {fileID: 217792077}
+  - {fileID: 498529234}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1862433779
@@ -9952,6 +9970,7 @@ MonoBehaviour:
   inside: []
   command: 56
   axis: {x: 1, y: 0, z: 0}
+  point: {x: 0, y: 0, z: 0}
 --- !u!1 &1880104176
 GameObject:
   m_ObjectHideFlags: 0
@@ -9981,15 +10000,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1347867127}
-  - {fileID: 1896247451}
-  - {fileID: 2139655497}
   - {fileID: 987246517}
   - {fileID: 797036051}
   - {fileID: 961997506}
   - {fileID: 1238468760}
   - {fileID: 1871661167}
   - {fileID: 999668380}
+  - {fileID: 1347867127}
+  - {fileID: 1896247451}
+  - {fileID: 2139655497}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1896247450
@@ -10061,6 +10080,7 @@ MonoBehaviour:
   inside: []
   command: 50
   axis: {x: 0, y: 0, z: 1}
+  point: {x: 0, y: 0, z: 0}
 --- !u!1 &1918720976
 GameObject:
   m_ObjectHideFlags: 0
@@ -10074,8 +10094,8 @@ GameObject:
   - component: {fileID: 1918720979}
   - component: {fileID: 1918720978}
   m_Layer: 0
-  m_Name: cubelet-5
-  m_TagString: Untagged
+  m_Name: green
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10090,7 +10110,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1628907142}
@@ -10112,7 +10132,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10179,8 +10199,8 @@ GameObject:
   - component: {fileID: 1933726183}
   - component: {fileID: 1933726182}
   m_Layer: 0
-  m_Name: cubelet-4
-  m_TagString: Untagged
+  m_Name: orange
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10195,7 +10215,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.8333334, y: 0.016666668, z: 0.8333334}
+  m_LocalScale: {x: 0.8, y: 0.02, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1048359226}
@@ -10217,7 +10237,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10418,8 +10438,8 @@ GameObject:
   - component: {fileID: 1977821532}
   - component: {fileID: 1977821531}
   m_Layer: 0
-  m_Name: cubelet-2
-  m_TagString: Untagged
+  m_Name: yellow
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10434,7 +10454,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1306727287}
@@ -10456,7 +10476,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10615,8 +10635,8 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 564186255}
-  - {fileID: 998309247}
   - {fileID: 1619734235}
+  - {fileID: 998309247}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1990326630
@@ -10659,8 +10679,8 @@ GameObject:
   - component: {fileID: 1992978780}
   - component: {fileID: 1992978779}
   m_Layer: 0
-  m_Name: cubelet-1
-  m_TagString: Untagged
+  m_Name: white
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10675,7 +10695,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 665540732}
@@ -10697,7 +10717,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -10764,8 +10784,8 @@ GameObject:
   - component: {fileID: 2000150124}
   - component: {fileID: 2000150123}
   m_Layer: 0
-  m_Name: cubelet-2
-  m_TagString: Untagged
+  m_Name: yellow
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10780,7 +10800,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1652697167}
@@ -10802,7 +10822,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11043,8 +11063,8 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 2128260357}
   - {fileID: 88118306}
+  - {fileID: 2128260357}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2045103909
@@ -11087,8 +11107,8 @@ GameObject:
   - component: {fileID: 2050768880}
   - component: {fileID: 2050768879}
   m_Layer: 0
-  m_Name: cubelet-1
-  m_TagString: Untagged
+  m_Name: white
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11103,7 +11123,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 120180716}
@@ -11125,7 +11145,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11192,8 +11212,8 @@ GameObject:
   - component: {fileID: 2077719291}
   - component: {fileID: 2077719290}
   m_Layer: 0
-  m_Name: cubelet-6
-  m_TagString: Untagged
+  m_Name: blue
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11208,7 +11228,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.8333334, y: 0.8333334, z: 0.016666668}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1108570530}
@@ -11230,7 +11250,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11393,9 +11413,9 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 87319960}
-  - {fileID: 1347226382}
   - {fileID: 227941248}
+  - {fileID: 1347226382}
+  - {fileID: 87319960}
   m_Father: {fileID: 1299691407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2126861219
@@ -11438,8 +11458,8 @@ GameObject:
   - component: {fileID: 2128260359}
   - component: {fileID: 2128260358}
   m_Layer: 0
-  m_Name: cubelet-2
-  m_TagString: Untagged
+  m_Name: yellow
+  m_TagString: Color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11454,7 +11474,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.0087520005, y: 0.8333334, z: 0.8333334}
+  m_LocalScale: {x: 0.02, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2045103908}
@@ -11476,7 +11496,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11599,14 +11619,15 @@ MonoBehaviour:
   inside: []
   command: 51
   axis: {x: 0, y: 0, z: 1}
+  point: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1618905646}
   - {fileID: 1362730768}
   - {fileID: 1376019166}
   - {fileID: 1299691407}
-  - {fileID: 1618905646}
   - {fileID: 1261968338}
   - {fileID: 273795876}
   - {fileID: 722002376}
