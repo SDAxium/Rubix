@@ -1,54 +1,66 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ControlTriggers : MonoBehaviour
 {
-    public List<GameObject> inside = new List<GameObject>();
+    private const string GameManagerTag = "GameController";
+    private GameManager _gameManager;
+    
+    public List<GameObject> inside = new();
 
     public KeyCode command;
-    /*
-     * TOP, EQUATOR, BOTTOM
-     * point = new Vector3(3.5f, 7, 3.5f);
-     * axis = Vector3.up;
-     *
-     * LEFT MIDDLE RIGHT
-     * point = new Vector3(3.5f, 0, 0);
-     * axis = Vector3.right;
-     *
-     * FRONT STANDING BACK
-     * point = new Vector3(0, 0, 3.5f);
-     * axis = Vector3.forward;
-     */
 
     public Vector3 axis;
+    public Vector3 point;
+    private bool _clockwise;
+    
     private void Start()
     {
-        
+        _gameManager = GameObject.FindGameObjectWithTag(GameManagerTag).GetComponent<GameManager>();
+        point = transform.position;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        float angleStep = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? -90f : 90f;
+        if (!GameManager.rotating)
+        { 
+            _clockwise = !(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift));
         
-        if (Input.GetKeyDown(command))
+            if (Input.GetKeyDown(command)) StartCoroutine(Rotate(_clockwise));
+        }
+    }
+
+    public IEnumerator Rotate(bool c)
+    {
+        if(GameManager.rotating) yield break;
+        
+        GameManager.rotating = true;
+        int angle = 0;
+        float angleStep = c ? -1 : 1;
+        
+        while (angle < 90)
         {
             foreach (var o in inside)
             {
-                o.transform.RotateAround(this.transform.position, axis, angleStep);
+                o.transform.RotateAround(point, axis, angleStep);
             }
+            angle++;
+            yield return null;
         }
+        
+        GameManager.rotating = false;
+        _gameManager.SnapCubelets(inside);
     }
     
     private void OnTriggerEnter(Collider other)
     {
         var go = other.gameObject;
         
-        if(!inside.Contains(go)) inside.Add(go);
+        if(!inside.Contains(go) && !other.CompareTag("Color")) inside.Add(go);
     }
-
+    
     private void OnTriggerExit(Collider other)
     {
         var go = other.gameObject;
